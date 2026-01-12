@@ -4,3 +4,5 @@ A small website where I'll be able to present my work as a sound recordist and s
 
 Since I'm making the website myself this will also present my current capabilities(or lack thereof) as a front end developer. I'm going to be using HTML, CSS and a bit of Javascript. 
 
+
+
