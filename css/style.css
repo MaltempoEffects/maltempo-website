@@ -1,0 +1,169 @@
+body, h1, p {
+    margin: 0;
+}
+
+body {
+    background-color: #030303;
+
+    box-sizing: border-box;
+    font-family: "Noto Sans", Arial, Helvetica, sans-serif;
+    font-size: 1.125rem;
+    margin: 0;
+}
+
+/***** TYPOGRAPHY *****/
+
+h1, .nav-bar {
+    text-transform: uppercase;
+}
+
+.logo {
+    width: 110px;
+}
+
+h1 {
+    color: #fff;
+    font-size: 3rem;
+    letter-spacing: 8px;
+}
+
+.navbar-list-item {
+    list-style-type: none;
+}
+
+@media (max-width: 1070px) {
+    .logo {
+        width: 90px;
+    }
+    h1 {
+        font-size: 2.5rem;
+        letter-spacing: 6px;
+    }
+    body {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 870px) {
+    .logo {
+        width: 70px;
+    }
+    h1 {
+        font-size: 2rem;
+        letter-spacing: 4px;
+    }
+    body {
+        font-size: 0.875rem;
+    }
+}
+
+@media (max-width: 680px) {
+    .logo {
+        width: 50px;
+    }
+    h1 {
+        font-size: 1.75rem;
+        letter-spacing: 2px;
+    }
+    body {
+        font-size: 0.750rem;
+    }
+}
+
+@media (max-width: 440px) {
+    .logo {
+        width: 30px;
+    }
+    h1 {
+        font-size: 1.25rem;
+    }
+    body {
+        font-size: 0.750rem;
+    }
+}
+
+
+/***** LAYOUT *****/
+.background {
+    background-color: #030303;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+    border-bottom: 1px solid #fff;
+}
+.ctnt-header {
+    padding-block: 1em;
+}
+
+.banner {
+    width: 80%;
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width: 600px) {
+    .content {
+        flex-direction: column;
+        align-items: flex-start;
+        border-bottom: none;
+    }
+    .banner {
+        width: 100%;
+        padding-block-end: 1em;
+        border-bottom: 1px solid #fff;
+    }
+}
+
+.main-title {
+    margin-inline-start: 0.5em;
+}
+
+.nav-bar {
+    width: 20%;
+}
+
+.navbar-list {
+    display: flex;
+    justify-content: flex-end; 
+    padding: 0;
+    margin: 0; 
+}
+
+@media (max-width: 600px) {
+    .nav-bar {
+        width: 100%;
+    }
+    .navbar-list {
+        justify-content: flex-start;
+    }
+}
+
+.navbar-link,
+.navbar-link:visited {
+    background-color: #030303;
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+    padding-inline: 1em;
+    border-radius: 1px;
+}
+
+.navbar-link:hover, 
+.navbar-link:focus {
+    background-color: #fff;
+    color: #030303;
+}
+
+.navbar-link:active {
+    background-color: #767676;
+    color: #fff;
+}
+
+
+
