@@ -4,5 +4,41 @@ A small website where I'll be able to present my work as a sound recordist and s
 
 Since I'm making the website myself this will also present my current capabilities(or lack thereof) as a front end developer. I'm going to be using HTML, CSS and a bit of Javascript. 
 
+12.01.2026.
+DONE 
+
+- set up basic HTML boilerplate 
+- added folders and files for CSS and Javacript
+- made a small logo in Aseprite for favicon
+- made a mock-up for the laning page on paper
+
+13.01.2026.
+DONE 
+
+- set up basic CSS for the website
+- create header with nav-bar
+- set up CSS gor header
+- made it responsive for all screen sizes
+
+TO-DO 
+
+- fix sizes for small mobile screens
+- try mobile first and build up from it
+- fix order of elements in header and switch their positions with "order"
+
+14.01.2026.
+DONE 
+
+- changed CSS to mobile first
+- tweaked the sizes with small changs to the header layout
+- prepard pictures for the first blog post
+
+TO-DO
+
+- add LOG and SFX pages, link them and set them up to work as the home page.
+- write text for the first blog post
+- blog post layout mock-up
+- make footer
+- choose to types of creative commons licenses, one for audio, on for images
 
 
