@@ -41,4 +41,15 @@ TO-DO
 - make footer
 - choose to types of creative commons licenses, one for audio, on for images
 
+15.01. 
+DONE 
+
+- footer is done
+- creative commons licenses set up
+
+TO-DO
+
+- add LOG and SFX pages, link them and set them up to work as the home page.
+- write text for the first blog post
+- blog post layout mock-up
 
