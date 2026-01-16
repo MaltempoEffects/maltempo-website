@@ -52,4 +52,18 @@ TO-DO
 - add LOG and SFX pages, link them and set them up to work as the home page.
 - write text for the first blog post
 - blog post layout mock-up
+- fix display:inline-blok on links
+- fix responsive sizes on footer for landscape layout
+
+16.01.
+DONE
+
+- fixed issues with links in nav-bar and social
+- tweaked responsive sizes on footer 
+
+TO-DO
+
+- add LOG and SFX pages, link them and set them up to work as the home page.
+- write text for the first blog post
+- blog post layout mock-up
 

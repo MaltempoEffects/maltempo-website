@@ -96,7 +96,7 @@ h1 {
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
-    max-width: 1200px;
+    max-width: 1400px;
     width: 90%;
     margin: 0 auto; 
     padding-block: 1em;
@@ -105,7 +105,7 @@ h1 {
 .banner {
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     padding-block-end: 1em;
     border-bottom: 1px solid #fff;
@@ -132,6 +132,13 @@ h1 {
 
 .img-link {
     order: 1;
+    margin-inline-start: 0.5em;
+}
+
+@media (min-width: 439px) {
+    .img-link {
+        margin-inline-start: 0.2em;
+    }
 }
 
 .main-title {
@@ -151,10 +158,12 @@ h1 {
 
 .navbar-link,
 .navbar-link:visited {
+    display: inline-block;
     background-color: #030303;
     color: #fff;
     font-weight: 700;
     text-decoration: none;
+    padding-block: 0.2em;
     padding-inline: 0.8em;
     border-radius: 1px;
 }
@@ -178,13 +187,18 @@ h1 {
         justify-content: flex-end;
     }
     .navbar-link {
-        padding-inline: 0.5em;
+        padding-inline: 0.7em;
+        border: 1px solid #fff;
+        border-radius: 2em;
+        margin-inline-start: 0.5em;
     }
 }
 
 @media (min-width: 699px) {
     .navbar-link {
         padding-inline: 1em;
+        border: 1px solid #fff;
+        border-radius: 2em;
     }
 }
 
@@ -197,7 +211,7 @@ h1 {
 }
 
 .footer-contact {
-    font-size: 0.45rem;
+    font-size: 0.35rem;
     letter-spacing: 0.1em;
     line-height: 2;
     border-bottom: 1px solid #fff; 
@@ -209,7 +223,7 @@ h1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 40%;
+    width: 50%;
 }
 
 .cc-link {
@@ -219,14 +233,20 @@ h1 {
 
 .link-social {
     text-decoration: none;
+    width: 1.2em;
+}
+.img-social {
+    display: block;
+    width: 100%;
 }
 
 address {
-    font-style: normal
+    font-style: normal;
+    text-decoration: none;
+    border: none;
 }
 
-.cc-image,
-.img-social {
+.cc-image {
     width: 1em; 
 }
 
@@ -248,12 +268,11 @@ address {
 
 @media (min-width: 1024px) {
     .footer-contact {
-        font-size: 0.65rem;
+        font-size: 0.5rem;
         letter-spacing: 0.15em;
     }
-
-    .img-social {
-        width: 1.3em;
+    .link-social {
+        width: 1.5rem;
     }
 }
 
