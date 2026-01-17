@@ -66,4 +66,5 @@ TO-DO
 - add LOG and SFX pages, link them and set them up to work as the home page.
 - write text for the first blog post
 - blog post layout mock-up
+- smaller font-size on landscape for footer
 
