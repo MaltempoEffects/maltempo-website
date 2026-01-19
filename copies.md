@@ -3,21 +3,6 @@
 /***** TYPOGRAPHY *****/
 /**********************/
 
-
-@media (min-width: 439px) {
-    h1 {
-        font-size: 1.75rem;
-        letter-spacing: 2px;
-    }
-    .logo {
-        width: 60px;
-    }
-    .navbar-list-item {
-        font-size: 1rem;
-        letter-spacing: 0.25em; 
-    }
-}
-
 @media (min-width: 769px) {
     h1 {
         font-size: 2rem;

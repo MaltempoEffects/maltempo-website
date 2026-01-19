@@ -1,7 +1,6 @@
 /*******************/
 /***** GENERAL *****/
 /*******************/
-
 body,
 h1, h2,
 p, ul, a {
@@ -32,9 +31,7 @@ main {
 /***** TYPOGRAPHY *****/
 /**********************/
 
-
 /***** HEADER *****/
-
 .main-title,
 .header-navbar-link {
     text-transform: uppercase;
@@ -52,26 +49,83 @@ main {
 }
 
 /***** FOOTER *****/
-
 .footer-navbar-item {
     font-size: 0.8rem;
     letter-spacing: 1px;
 }
 
 .cc-message {
-    font-size: 0.7rem;
+    font-size: 0.6rem;
+}
+
+/***** TYPOGRAPHY MEDIA QUERY *****/
+@media (min-width: 420px) {
+    .main-title {
+        font-size: 1.75rem;
+        letter-spacing: 2px;
+    }
+    .header-navbar-item {
+        font-size: 1rem;
+        letter-spacing: 0.2em; 
+    }
+
+    .cc-message {
+        font-size: 0.7rem;
+    }
+}
+
+@media (min-width: 620px) {
+    .header-navbar-item {
+        font-size: 0.8rem;
+        letter-spacing: 0.2em; 
+    }
+}
+
+@media (min-width: 770px) {
+    .main-title {
+        font-size: 2rem;
+        letter-spacing: 4px;
+    }
+    .header-navbar-item {
+        font-size: 1rem;
+    }
+
+    .footer-navbar-item {
+        font-size: 1rem;
+        letter-spacing: 1px;
+    }
+    .cc-message {
+        font-size: 0.9rem;
+    }
+}
+
+@media (min-width: 1024px) {
+
+    .main-title {
+        font-size: 2.5rem;
+        letter-spacing: 8px;
+    }
+    .header-navbar-item {
+        font-size: 1.2rem;
+    }
+
+    .footer-navbar-item {
+        font-size: 1.2rem;
+        letter-spacing: 1px;
+    }
+    .cc-message {
+        font-size: 1.1rem;
+    }
 }
 
 /******************/
 /***** LAYOUT *****/
 /******************/
-
 .background {
     background-color: #030303;
 }
 
 /***** HEADER *****/
-
 .content {
     display: flex;
     flex-direction: column;
@@ -89,12 +143,11 @@ main {
     border-bottom: 1px solid #fff;
 }
 
-.img-link {
+.header-logo-link {
     order: -1;
     width: 45px;
     margin-inline: 0.5em;
 }
-
 .header-logo {
     display: block;
     width: 100%;
@@ -114,7 +167,6 @@ main {
 .header-navbar-link:visited {
     color: #fff;
 }
-
 .header-navbar-link:hover,
 .header-navbar-link:focus {
     background-color: #fff;
@@ -122,21 +174,24 @@ main {
 }
 
 /***** FOOTER *****/
+.footer-navbar,
+.footer-social-links {
+    width: 80%;
+    margin: 0 auto;
+}
 
 .footer-navbar-list {
     display: flex;
     justify-content: space-around;
-    width: 100%;
-    padding-block: 0.2em;
+    padding-block: 0.5em;
+    border-bottom: 1px solid #fff;
 }
 
 .footer-navbar-link,
-.footer-navbar-link:visited,
-.cc-link {
+.footer-navbar-link:visited {
     color: #fff;
     text-decoration: none;
 }
-
 .footer-navbar-link:hover,
 .footer-navbar-link:focus {
     border-bottom: 1px solid #fff;
@@ -145,10 +200,8 @@ main {
 .footer-social-links {
     display:flex;
     justify-content: space-evenly;
-    align-items: center;    
-    padding: 0.5em;
-    border-top: 1px solid #fff;
-    border-bottom: 1px solid #fff;
+    align-items: center;   
+    padding: 1em;
 }
 
 .link-social {
@@ -161,11 +214,108 @@ main {
 
 .footer-cc {
     text-align: center; 
-    padding: 0.3em;
+    padding-inline: 0.3em;
+    border-top: 1px solid #fff;
+}
+
+.cc-message {
+    margin-block: 0.75em;
+}
+.cc-link {
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 1px solid #fff;
 }
 .cc-image {
     width: 1em;
 } 
+
+/***** LAYOUT MEDIA QUERY *****/
+@media (min-width: 420px) {
+    .header-logo-link {
+        width: 60px;
+        margin-inline: 0.6em;
+    }
+    .header-navbar-link {
+        padding-inline: 0.9em;
+    }
+
+    .footer-navbar,
+    .footer-social-links {
+        width: 70%;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 620px) {
+    .content-header {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .banner {
+        border-bottom: 0;
+    }
+    .header-navbar-item {
+        margin-inline-start: 1em;
+    }
+    .header-navbar-link {
+        border: 1px solid #fff;
+        border-radius: 1em;
+    }
+
+    .footer-general {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-block: 0.5em;
+        padding-inline: 0.8em;
+    }
+    .footer-navbar,
+    .footer-social-links {
+        width: 40%;
+        padding: 0;
+        margin: 0;
+    }
+    .footer-navbar-list {
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 0;
+    }
+    .footer-social-links {
+        display:flex;
+        justify-content: space-between;
+        align-items: center; 
+        border-block-start: none;
+    }
+}
+
+@media (min-width: 770px) {
+    .header-logo-link {
+        width: 80px;
+        margin-inline: 1em;
+    }
+
+    .footer-navbar,
+    .footer-social-links {
+        width: 35%;
+        padding: 0;
+        margin: 0;
+    }
+    .link-social {
+        width: 1.7em;
+    }
+}
+
+@media (min-width: 1024px) {
+    .header-logo-link {
+        width: 110px;
+        margin-inline: 1em;
+    }
+    .link-social {
+        width: 1.9em;
+    }
+}
 
 /******************/
 /***** FIXES *****/
