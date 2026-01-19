@@ -1,7 +1,57 @@
+body, h1, p, a {
+    margin: 0;
+    padding: 0;
+}
 
+body {
+    background-color: #030303;
+
+    box-sizing: border-box;
+    font-family: "Noto Sans", Arial, Helvetica, sans-serif;
+    font-size: 1.125rem;
+}
+
+main {
+    height: 20px;
+}
 
 /***** TYPOGRAPHY *****/
 /**********************/
+
+h1,
+.nav-bar {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+h1 {
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+}
+
+.logo {
+    width: 45px;
+}
+
+.navbar-list-item {
+    list-style-type: none;
+    font-size: 1rem;
+    letter-spacing: 0.15em; 
+}
+
+@media (min-width: 439px) {
+    h1 {
+        font-size: 1.75rem;
+        letter-spacing: 2px;
+    }
+    .logo {
+        width: 60px;
+    }
+    .navbar-list-item {
+        font-size: 1rem;
+        letter-spacing: 0.25em; 
+    }
+}
 
 @media (min-width: 769px) {
     h1 {
@@ -36,6 +86,29 @@
 
 /***** HEADER *****/
 
+.background {
+    background-color: #030303;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1400px;
+    width: 90%;
+    margin: 0 auto; 
+    padding-block: 1em;
+}
+
+.banner {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-block-end: 1em;
+    border-bottom: 1px solid #fff;
+}
 
 @media (min-width: 619px) {
     .content {
@@ -52,6 +125,14 @@
     }
 }
 
+.main-title {
+    order: 2;
+}
+
+.img-link {
+    order: 1;
+    margin-inline-start: 0.5em;
+}
 
 @media (min-width: 439px) {
     .img-link {
