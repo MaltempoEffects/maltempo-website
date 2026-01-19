@@ -68,10 +68,6 @@ main {
         font-size: 1rem;
         letter-spacing: 0.2em; 
     }
-
-    .cc-message {
-        font-size: 0.7rem;
-    }
 }
 
 @media (min-width: 620px) {
@@ -95,7 +91,7 @@ main {
         letter-spacing: 1px;
     }
     .cc-message {
-        font-size: 0.9rem;
+        font-size: 0.7rem;
     }
 }
 
@@ -114,7 +110,7 @@ main {
         letter-spacing: 1px;
     }
     .cc-message {
-        font-size: 1.1rem;
+        font-size: 0.9rem;
     }
 }
 
