@@ -68,3 +68,16 @@ TO-DO
 - blog post layout mock-up
 - smaller font-size on landscape for footer
 
+17.01. 
+DONE 
+
+- Erased the footer and started again
+
+TO-DO
+
+- fix the footer
+- add INFO and SFX pages, link them and set them up to work as the home page.
+- write text for the first blog post
+- blog post layout mock-up
+- smaller font-size on landscape for footer
+
