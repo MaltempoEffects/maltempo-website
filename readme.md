@@ -97,6 +97,17 @@ TO-DO
 - blog post layout mock-up
 - smaller font-size on landscape for footer
 
+19.01
+DONE 
 
+- fixed the footer
+- gave up on trying to find the solution for iphone landscape issue
 
+TO-DO
+
+- add INFO and SFX pages, link them and set them up to work as the home page.
+- write text for the first blog post
+- blog post layout mock-up
+
+20.01
 
