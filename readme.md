@@ -105,9 +105,31 @@ DONE
 
 TO-DO
 
-- add INFO and SFX pages, link them and set them up to work as the home page.
+- add INFO and SFX pages, link them and set them up to work as the home page
 - write text for the first blog post
 - blog post layout mock-up
 
 20.01
+DONE
 
+- add INFO and SFX pages, link them and set them up to work as the home page
+- added other pages from the info section
+- started setting up the info page
+
+TODO
+
+- finish info page
+- write text for the first blog post
+- blog post layout mock-up
+
+21.01 
+DONE 
+
+- made the info page responsive but it's not finished
+
+TODO
+
+- finish info page
+- write text for the first blog post
+- blog post layout mock-up
+- start adding content
