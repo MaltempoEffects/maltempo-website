@@ -8,6 +8,7 @@
 body {
     background-color: #030303;
     font-family: "Noto Sans", Arial, Helvetica, sans-serif;
+    color: #fff;
     font-size: 1.125rem;
 }
 
@@ -290,25 +291,25 @@ li {
     flex-wrap: wrap;
     width: 100%;
     background-color: #030303;
-    padding: 2em;
+    padding: 1em;
     margin: 0 auto;
     border-bottom: 1px solid #fff;
 }
+.links-set {
+    display: flex;  
+}
 .link-page {
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    width: 120px;
-    height: 120px;
-    flex: 0 0 auto;
+    flex-direction: column; 
+    justify-content: space-evenly;
+    width: 100px;
+    height: 100px;
     background-color: #030303;
     color: #fff;
     text-decoration: none;
-    padding: 1em;
-    border-radius: 4em;
-    margin-inline: 1em; 
-    transition: filter 0.5s;
+    padding: 0.75em;
+    border-radius: 3em;
+    margin: 0.5em;
 }
 
 .link-page:hover,
@@ -323,12 +324,74 @@ li {
     margin: 0 auto;
 }
 .link-text-page {
-    display: block;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     text-align: center;
     text-transform: uppercase;
     font-weight: 600;
     letter-spacing: 2px;
+}
+
+/***** SFX PAGE *****/
+.card { 
+    min-width: 300px;
+    width: 320px;
+    padding-inline: 1em;
+    border: 1px solid #939393;
+    border-radius: 1em;  
+    margin: 1em auto;
+}
+.card-sfx-grey {
+    background-color: #030303;
+}
+
+.card-area-title {
+    display: flex;
+    flex-direction: column;
+    height: 40%;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+}
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-block: 0.8em;
+}
+
+.sfx-card-figure {
+    width: 10%;
+    background-color: #fff;
+    border-radius: 20px;
+}
+.sfx-card-icon {
+    display: block;
+    width: 100%;
+    padding: 3px;
+}
+
+.sfx-main-img {
+    border-radius: 1em;
+    overflow: hidden;
+}
+.sfx-card-img {
+    display: block; 
+    filter: grayscale(100%);
+    width: 100%;
+}
+
+.card-area-description {
+    margin-block: 1em;
+}
+
+.card-info {
+    font-size: 0.9rem;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+.card-area-buttons {
+    
 }
 /***** FIXES *****/
 .ls-fix{

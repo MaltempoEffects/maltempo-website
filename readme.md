@@ -127,9 +127,22 @@ DONE
 
 - made the info page responsive but it's not finished
 
-TODO
+TO-DO
 
 - finish info page
+- write text for the first blog post
+- blog post layout mock-up
+- start adding content
+
+22.01 
+DONE 
+
+- finished the info page
+- started the sfx page and made a basic card for the different SFX
+
+TO-DO
+
+- finish the first SFX card
 - write text for the first blog post
 - blog post layout mock-up
 - start adding content
