@@ -352,22 +352,32 @@ li {
     text-transform: uppercase;
     letter-spacing: 1.3px;
 }
-.card-header {
+.card-header, 
+.card-subtitle {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-block: 0.8em;
+}
+.card-header {
+    padding-block: 0.8em;;
+}
+
+.card-subtitle {
+    padding-bottom: 0.3em;
 }
 
 .sfx-card-figure {
     width: 10%;
-    background-color: #fff;
-    border-radius: 20px;
 }
 .sfx-card-icon {
     display: block;
     width: 100%;
+}
+.sfx-card-badge {
+    width: 10%;
+    background-color: #fff;
     padding: 3px;
+    border-radius: 1em;
 }
 
 .sfx-main-img {
@@ -381,18 +391,55 @@ li {
 }
 
 .card-area-description {
-    margin-block: 1em;
+    margin-block-start: 0.3em;
+}
+.card-info-section {
+    padding-block-start: 0.3em;
+    border-block: 1px solid #fff;
+}
+
+.sfx-card-description {
+    padding-bottom: 0.6em;
+    border-bottom: 1px solid #fff;
 }
 
 .card-info {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     text-align: justify;
     line-height: 1.5;
 }
 
-.card-area-buttons {
-    
+.card-data {
+    font-size: 0.7rem;
+    text-align: center;
+    margin-block: 0.5em;
 }
+
+.card-area-buttons {
+    display: flex;
+    justify-content: space-around;
+    padding: 0.5em; 
+}
+
+.card-button {
+    display: inline-block;
+    color: #fff;
+    font-size: 1rem;
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    padding-block: 0.2em 0.25em;
+    padding-inline: 1em;
+    border: 1px solid #fff;
+    border-radius: 1em;
+    transition: background-color 0.3s, color 0.3s;
+}
+.card-button:hover,
+.card-button:focus {
+    background-color: #fff;
+    color: #030303;
+}
+
 /***** FIXES *****/
 .ls-fix{
     letter-spacing: 0;
