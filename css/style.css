@@ -289,10 +289,10 @@ li {
 
 /***** INFO PAGE *****/
 .pages-links,
+.links-div,
 .link-page {
     display: flex;
 }
-
 .pages-links {
     justify-content: center;
     flex-wrap: wrap;
@@ -302,7 +302,6 @@ li {
     margin: 0 auto;
     border-bottom: 1px solid #939393;
 }
-
 .link-page {
     flex-direction: column; 
     justify-content: space-evenly;

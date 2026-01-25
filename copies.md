@@ -289,6 +289,16 @@ h1 {
 
 
 
+.pages-links {
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: #030303;
+    padding: 1em;
+    margin: 0 auto;
+    border-bottom: 1px solid #939393;
+}
+
 
 
 
