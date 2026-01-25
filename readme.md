@@ -157,3 +157,17 @@ TO-DO
 - write text for the first blog post
 - blog post layout mock-up
 - start adding content
+
+22.02 
+DONE
+
+- updated first card
+- cleane code
+- modified some elemens in css
+
+TO-DO
+
+- write text for the first blog post
+- blog post layout mock-up
+- start adding content
+- make first resume entry
