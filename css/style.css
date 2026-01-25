@@ -17,14 +17,23 @@ li {
 }
 
 /***** HEADER *****/
+.background,
+.banner {
+    border-bottom: 1px solid #939393;
+}
+
+.content,
+.navbar-list,
+.banner {
+    display: flex;
+}
+
 .background {
     width: 100%;
-    background-color: #030303;
-    border-bottom: 1px solid #fff;
+    background-color: #030303; 
 }
 
 .content {
-    display: flex;
     flex-direction: column;
     width: 95%;
     max-width: 1400px;
@@ -33,11 +42,9 @@ li {
 }
 
 .banner {
-    display: flex;
     justify-content: flex-start;
     align-items: center;
     padding-block: 1em;
-    border-bottom: 1px solid #fff;
 }
 
 .main-title {
@@ -54,10 +61,6 @@ li {
 .header-logo {
     display: block;
     max-width: 100%;
-}
-
-.navbar-list {
-    display: flex;
 }
 
 .header-navbar-item {
@@ -119,7 +122,7 @@ li {
         letter-spacing: 0.2em; 
     }
     .header-navbar-link {
-        border: 1px solid #fff;
+        border: 1px solid #939393;
         border-radius: 1em;
     }
 }
@@ -163,7 +166,7 @@ li {
     display: flex;
     justify-content: space-around;
     padding-block: 0.5em;
-    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid #939393;
 }
 
 .footer-navbar-item {
@@ -179,7 +182,7 @@ li {
 
 .footer-navbar-link:hover,
 .footer-navbar-link:focus {
-    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid #939393;
 }
 
 .footer-social-links {
@@ -200,7 +203,7 @@ li {
 .footer-cc {
     text-align: center; 
     padding-inline: 0.3em;
-    border-top: 1px solid #fff;
+    border-top: 1px solid #939393;
 }
 
 .cc-message {
@@ -212,7 +215,7 @@ li {
 .cc-link {
     color: #fff;
     text-decoration: none;
-    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid #939393;
 }
 
 .cc-image {
@@ -285,21 +288,23 @@ li {
 }
 
 /***** INFO PAGE *****/
-.pages-links {
+.pages-links,
+.links-set,
+.link-page {
     display: flex;
+}
+
+.pages-links {
     justify-content: center;
     flex-wrap: wrap;
     width: 100%;
     background-color: #030303;
     padding: 1em;
     margin: 0 auto;
-    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid #939393;
 }
-.links-set {
-    display: flex;  
-}
+
 .link-page {
-    display: flex;
     flex-direction: column; 
     justify-content: space-evenly;
     width: 100px;
@@ -340,7 +345,7 @@ li {
     border-radius: 1em;  
     margin: 1em auto;
 }
-.card-sfx-grey {
+.card-sfx-black {
     background-color: #030303;
 }
 
@@ -359,22 +364,20 @@ li {
     align-items: center;
 }
 .card-header {
-    padding-block: 0.8em;;
+    padding-block-start: 0.6em;;
 }
-
-.card-subtitle {
-    padding-bottom: 0.3em;
+.sfx-card-icons {
+    display: flex;
 }
-
 .sfx-card-figure {
-    width: 10%;
+    width: 30px;
 }
 .sfx-card-icon {
     display: block;
     width: 100%;
 }
 .sfx-card-badge {
-    width: 10%;
+    width: 25px;
     background-color: #fff;
     padding: 3px;
     border-radius: 1em;
@@ -383,42 +386,42 @@ li {
 .sfx-main-img {
     border-radius: 1em;
     overflow: hidden;
+    margin-block: 0.6em;
 }
 .sfx-card-img {
     display: block; 
     filter: grayscale(100%);
     width: 100%;
 }
-
-.card-area-description {
-    margin-block-start: 0.3em;
-}
 .card-info-section {
-    padding-block-start: 0.3em;
-    border-block: 1px solid #fff;
+    padding-block-start: 0.1em;
+    border-block: 1px solid #939393;
+    margin-block-start: 0.3em;
 }
 
 .sfx-card-description {
-    padding-bottom: 0.6em;
-    border-bottom: 1px solid #fff;
+    padding-bottom: 0.1em;
+    border-bottom: 1px solid #939393;
 }
 
 .card-info {
-    font-size: 0.8rem;
-    text-align: justify;
+    font-size: 0.9rem;
+    text-align: center;
     line-height: 1.5;
+    letter-spacing: 1px;
 }
 
 .card-data {
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     text-align: center;
-    margin-block: 0.5em;
+    margin-block: 0.2em;
+    letter-spacing: 0;
 }
 
 .card-area-buttons {
     display: flex;
     justify-content: space-around;
-    padding: 0.5em; 
+    padding-block: 0.6em 1em; 
 }
 
 .card-button {
@@ -430,7 +433,7 @@ li {
     letter-spacing: 0.5px;
     padding-block: 0.2em 0.25em;
     padding-inline: 1em;
-    border: 1px solid #fff;
+    border: 1px solid #939393;
     border-radius: 1em;
     transition: background-color 0.3s, color 0.3s;
 }

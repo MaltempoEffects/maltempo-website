@@ -146,3 +146,14 @@ TO-DO
 - write text for the first blog post
 - blog post layout mock-up
 - start adding content
+
+22.01 
+DONE 
+
+- finished the first card
+
+TO-DO
+
+- write text for the first blog post
+- blog post layout mock-up
+- start adding content
