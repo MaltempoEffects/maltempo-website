@@ -147,7 +147,7 @@ TO-DO
 - blog post layout mock-up
 - start adding content
 
-22.01 
+23.01 
 DONE 
 
 - finished the first card
@@ -158,11 +158,11 @@ TO-DO
 - blog post layout mock-up
 - start adding content
 
-22.02 
+25.01
 DONE
 
 - updated first card
-- cleane code
+- cleaned code
 - modified some elemens in css
 
 TO-DO
@@ -171,3 +171,18 @@ TO-DO
 - blog post layout mock-up
 - start adding content
 - make first resume entry
+- html + css basic setup za resume
+- html + css equipment page
+
+26.01
+DONE
+
+- made the equipment page and the first section both html & css
+
+TO-DO
+
+- write text for the first blog post
+- blog post layout mock-up
+- make first resume entry
+- html + css basic setup za resume
+- html + css equipment page
