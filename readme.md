@@ -181,8 +181,15 @@ DONE
 
 TO-DO
 
+- finish equipment page and make it responsive
 - write text for the first blog post
 - blog post layout mock-up
 - make first resume entry
 - html + css basic setup za resume
 - html + css equipment page
+
+
+27.01 
+DONE 
+
+- finish equipment page and make it responsive
