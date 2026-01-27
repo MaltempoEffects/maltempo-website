@@ -299,6 +299,19 @@ h1 {
     border-bottom: 1px solid #939393;
 }
 
+ <article>
+          <h4 class="job-title">Sound mixer</h4>
+          <p class="time-paragraph">Oct 2015 - Feb 2016</p>
+          <p class="employer-paragraph">DOP Produkcija, Zagreb, Croatia</p>
+          <ul class="decription-list">
+            <li class="description-bullet"><a class="product-link" 
+              href="https://www.imdb.com/title/tt6436082/" 
+              target="_blank">
+              <strong>Fuck Off I Love You</strong></a> - indie feature film
+            </li>
+          </ul>
+        </article>
+
 
 
 
