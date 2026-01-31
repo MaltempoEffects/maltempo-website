@@ -559,6 +559,7 @@ li {
 }
 
 .job-position {
+    text-align: center;
     font-size: 1.4rem;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -574,6 +575,7 @@ li {
 }
 
 .project-title {
+    text-align: center;
     font-size: 1.2rem;
     text-transform: uppercase;
     font-weight: 500;
@@ -612,6 +614,59 @@ li {
     color: #030303;
 }
 
+@media (min-width: 600px) {
+    .year-title,
+    .resume-job {
+        max-width: 650px;
+    }
+    .job-title {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-end;
+        border-bottom: 1px solid #939393;
+    }
+    .project-title {
+        border: none;
+        border-bottom: 1px solid #939393;
+        margin: 0;
+        margin-block-end: 0.5em;
+    }
+    .job-period {
+        margin-block-end: 0.1em;
+    }
+    .job-description,
+    .job-employer {
+        font-size: 1.2rem;
+    }
+}
+
+@media (min-width: 700px) {
+    .year-title,
+    .resume-job {
+        max-width: 800px;
+    }
+    .year-title {
+        font-size: 2rem;
+    }
+    .job-position {
+        font-size: 1.8rem;
+    }
+    .job-period {
+        font-size: 1.3rem;
+        margin-block-end: 0.1em;
+    }
+    .project-title {
+        font-size: 1.4rem;
+    }
+
+    .project-button {
+        font-size: 1.2rem;
+    }
+}
+
+@media (min-width: 1024px) {
+
+}
 /***** FIXES *****/
 .ls-fix{
     letter-spacing: 0;

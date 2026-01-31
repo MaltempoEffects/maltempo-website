@@ -198,3 +198,34 @@ TO-DO
 
 - write text for the first blog post
 - blog post layout mock-up
+
+29.01 
+DONE 
+
+- responsive resume page
+
+TO-DO
+
+- write text for the first blog post
+- blog post layout mock-up
+
+30.01 
+DONE 
+
+-  Javascript test for resume page 
+
+TO-DO
+
+- implement javascript to resume page
+- write text for the first blog post
+- blog post layout mock-up
+
+31.01 
+DONE 
+
+-  resume page javascript nd all objects finished
+
+TO-DO
+
+- write text for the first blog post
+- blog post layout mock-up
