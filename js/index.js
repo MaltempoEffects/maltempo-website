@@ -646,23 +646,23 @@ function displayResume () {
             yearFour.innerHTML += article;
         } else if (resumeObject[i].year === `2018`) {
             yearFive.innerHTML += article;
-        }  else if (resumeObject[i].year === `2019`) {
+        } else if (resumeObject[i].year === `2019`) {
             yearSix.innerHTML += article;
-        }  else if (resumeObject[i].year === `2020`) {
+        } else if (resumeObject[i].year === `2020`) {
             yearSeven.innerHTML += article;
-        }  else if (resumeObject[i].year === `2021`) {
+        } else if (resumeObject[i].year === `2021`) {
             yearEight.innerHTML += article;
-        }  else if (resumeObject[i].year === `2022`) {
+        } else if (resumeObject[i].year === `2022`) {
             yearNine.innerHTML += article;
-        }  else if (resumeObject[i].year === `2023`) {
+        } else if (resumeObject[i].year === `2023`) {
             yearTen.innerHTML += article;
-        }  else if (resumeObject[i].year === `2024`) {
+        } else if (resumeObject[i].year === `2024`) {
             yearEleven.innerHTML += article;
-        }  else if (resumeObject[i].year === `2025`) {
+        } else if (resumeObject[i].year === `2025`) {
             yearTwelve.innerHTML += article;
-        }  else if (resumeObject[i].year === `2026`) {
+        } else if (resumeObject[i].year === `2026`) {
             yearThirteen.innerHTML += article;
-        }    
+        }
     }
     
 }

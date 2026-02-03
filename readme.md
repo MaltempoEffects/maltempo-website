@@ -223,9 +223,47 @@ TO-DO
 31.01 
 DONE 
 
--  resume page javascript nd all objects finished
+-  resume page javascript and all objects finished
 
 TO-DO
 
 - write text for the first blog post
 - blog post layout mock-up
+
+01.02. 
+DONE 
+
+- write text for the first blog post
+- blog post layout mock-up
+
+TO-DO
+
+- write second and third blog post
+- find pictures for them
+- add second and third SFX card with appropriate pictures
+- write "welcome text" for the landing page
+- style blog 
+- style about page
+- style landing page 
+- if time permits try to make a basic sound player with javascript
+- change colors on logo .png
+- convert pictures to .webp
+
+03.02.
+DONE 
+
+- write second and third blog post
+- find pictures for them
+- write "welcome text" for the landing page
+- style blog 
+- style about page
+
+TO-DO
+
+- make the blog and about responsive
+- finish all blog posts and about
+- add second and third SFX card with appropriate pictures
+- style landing page 
+- if time permits try to make a basic sound player with javascript
+- change colors on logo .png
+- convert pictures to .webp
