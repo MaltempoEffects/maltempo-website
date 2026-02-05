@@ -249,14 +249,11 @@ TO-DO
 - change colors on logo .png
 - convert pictures to .webp
 
-03.02.
+04.02.
 DONE 
 
-- write second and third blog post
-- find pictures for them
-- write "welcome text" for the landing page
-- style blog 
-- style about page
+- second post html & css mobile first
+- blog menu page added
 
 TO-DO
 
@@ -267,3 +264,19 @@ TO-DO
 - if time permits try to make a basic sound player with javascript
 - change colors on logo .png
 - convert pictures to .webp
+
+05.02.
+DONE 
+- make the blog and about responsive
+- finish all blog posts and about
+
+
+TO-DO
+
+- style landing page 
+- add second and third SFX card with appropriate pictures
+- connect all the SFX cards with appropriate blog posts
+- convert pictures to .webp
+- if time permits try to make a basic sound player with javascript
+- change colors on logo .png
+- check everyhing
