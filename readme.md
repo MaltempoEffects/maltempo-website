@@ -116,7 +116,7 @@ DONE
 - added other pages from the info section
 - started setting up the info page
 
-TODO
+TO-DO
 
 - finish info page
 - write text for the first blog post
@@ -279,4 +279,19 @@ TO-DO
 - convert pictures to .webp
 - if time permits try to make a basic sound player with javascript
 - change colors on logo .png
+- check everyhing
+
+06.02.
+DONE 
+
+- style landing page 
+- add second and third SFX card with appropriate pictures
+- connect all the SFX cards with appropriate blog posts
+- if time permits try to make a basic sound player with javascript
+
+TO-DO
+
+- convert pictures to .webp
+- change colors on logo .png
+- clear data on submit
 - check everyhing

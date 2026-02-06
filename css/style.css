@@ -74,7 +74,7 @@ li {
     display: inline-block;
     text-transform: uppercase;
     text-decoration: none;
-    padding-block: 0.2em;
+    padding-block: 0.3em 0.2em;
     padding-inline: 0.7em;
     transition: background-color 0.25s, color 0.25s;
 }
@@ -335,6 +335,14 @@ li {
 }
 
 /***** SFX PAGE *****/
+.sfx-cards {
+    display: flex;
+    flex-wrap: wrap;
+    width: 95%;
+    max-width: 1400px;
+    color: #fff;
+    margin: 0 auto;
+}
 .card { 
     min-width: 300px;
     width: 320px;
@@ -364,6 +372,28 @@ li {
 .card-header {
     padding-block-start: 0.6em;;
 }
+
+.sfx-card-figure-btn {
+    width: 35px;
+    background-color: #fff;
+    padding-block: 0.6em;
+    padding-inline: 0.6em;
+    border: 1px solid #939393;
+    border-radius: 2em;
+    cursor: pointer;
+}
+.sfx-card-button{
+    display: block;
+    width: 100%;
+}
+
+.sfx-card-figure-btn:hover,
+.sfx-card-figure-btn:focus {
+    filter: invert(100%);
+}
+
+
+
 .sfx-card-icons {
     display: flex;
 }
@@ -374,9 +404,9 @@ li {
     display: block;
     width: 100%;
 }
+
 .sfx-card-badge {
-    width: 25px;
-    background-color: #fff;
+    width: 35px;
     padding: 3px;
     border-radius: 1em;
 }
@@ -870,7 +900,7 @@ li {
         height: 240px;
     }
     .article-title {
-        font-size: 1.8rem;
+        font-size: 1.6rem;
     }
     .article-date {
         font-size: 1rem;
@@ -917,6 +947,175 @@ li {
 @media (min-width: 770px) {
     .about-figure {
         width: 40%;
+    }
+}
+
+/***** HOME PAGE *****/
+.home-page {
+    width: 95%;
+    max-width: 1400px;
+    padding: 1em;
+    border: 1px solid #939393;
+    border-radius: 1em;
+    margin: 1em auto;
+} 
+
+.home-title {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    text-align: center;
+    margin-block-end: 0.5em;
+}
+
+.home-text, 
+.cta-text {
+    font-size: 1.2rem;
+    text-align: center;
+    margin-block-end: 1em;
+}
+
+.cta-sec {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cta-part {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 300px;
+    min-width: 200px;
+    padding: 0.8em 1em;
+    border: 1px solid #939393;
+    border-radius: 1em;
+    margin: 0.5em;
+}
+
+.cta-title {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    align-self: flex-start;
+}
+
+.cta-text {
+    font-size: 1.2rem;
+    text-align: justify;
+    margin-block: 0.5em;
+}
+
+.cta-link {
+    display: inline-block;
+    background-color: #030303;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    padding-block: 0.4em 0.5em;
+    padding-inline: 1em;
+    border: 1px solid #939393;
+    border-radius: 1em;
+    margin: 0.4em;
+    transition: background-color 0.25s, color 0.25s;
+}
+
+.cta-link:hover,
+.cta-link:focus {
+    background-color: #fff;
+    color: #030303;
+}
+
+.form-sec {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+    margin-block: 2em;
+}
+
+.form-text {
+    font-size: 1.2rem;  
+    margin-block-end: 0.2em;
+}
+
+.form-text-intro {
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    border-bottom: 1px solid #939393;
+    margin-block-end: 0.5em;
+}
+
+.form-input {
+    font-family: "Noto Sans", Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
+    margin-block-end: 1em;
+    padding-block: 0.3em;
+    padding-inline: 0.6em;
+    border: 1px solid #939393;
+    border-radius: 1em; 
+}
+
+.form-button {
+    display: inline-block;
+    align-self: center;
+    background-color: #030303;
+    color: #fff;
+    font-size: 1.2rem;
+    text-decoration: none;
+    font-weight: 700;
+    padding-block: 0.4em 0.3em;
+    padding-inline: 1em;
+    border: 1px solid #939393;
+    border-radius: 1em;
+    margin: 0.4em;
+    transition: background-color 0.25s, color 0.25s;
+}
+.form-button:hover,
+.form-button:focus {
+    background-color: #fff;
+    color: #030303;
+}
+
+@media (min-width: 420px) {
+    .home-text,
+    .cta-text {
+        font-size: 1.3rem;
+    }
+}
+
+@media (min-width: 620px) {
+    .cta-sec {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
+@media (min-width: 770px) {
+    .home-title {
+        font-size: 4rem;
+    }
+    .home-text {
+        font-size: 1.6rem;
+    }
+    .cta-title {
+        font-size: 1.6rem;
+    }
+    .cta-text, 
+    .form-text,
+    .form-button {
+        font-size: 1.4rem;  
+    }
+    .form-input {
+        font-size: 1.3rem;
+    }
+    .cta-link {
+        font-size: 1.2rem
+    }
+    .form-sec {
+        max-width: 75   0px;
+    }
+    .form-text-intro {
+        font-size: 2rem;
     }
 }
 
