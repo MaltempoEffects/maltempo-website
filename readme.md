@@ -295,3 +295,12 @@ TO-DO
 - change colors on logo .png
 - clear data on submit
 - check everyhing
+
+06.02.
+DONE 
+
+- convert pictures to .webp
+- change colors on logo .png
+- check everyhing
+
+

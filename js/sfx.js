@@ -3,7 +3,7 @@ const playSoundTwo = document.getElementById("play-button-2017");
 const playSoundThree = document.getElementById("play-button-seacoast");
 let isPlaying = true;
 
-const sfxOne = new Audio("./assets/audio/2017.mp3");
+const sfxOne = new Audio("./assets/audio/2015.mp3");
 const sfxTwo = new Audio("./assets/audio/2017.mp3");
 const sfxThree = new Audio("./assets/audio/seacoast.mp3");
 console.log(sfxOne);
@@ -11,7 +11,7 @@ console.log(sfxOne);
 playSoundOne.addEventListener("click", function() {
     if(isPlaying === true) {
         playSoundOne.innerHTML = `
-            <img class="sfx-card-button" src="./assets/icons/pause.png" alt="sfx-card-icon">
+            <img class="sfx-card-button-pause" src="./assets/icons/pause.png" alt="sfx-card-icon">
         `;
         sfxOne.play();
         isPlaying = false;
@@ -22,14 +22,14 @@ playSoundOne.addEventListener("click", function() {
         sfxOne.pause();
         isPlaying = true;
     }
-
+    console.log(playSoundOne);
 })
 
 
 playSoundTwo.addEventListener("click", function() {
     if(isPlaying === true) {
         playSoundTwo.innerHTML = `
-            <img class="sfx-card-button" src="./assets/icons/pause.png" alt="sfx-card-icon">
+            <img class="sfx-card-button-pause" src="./assets/icons/pause.png" alt="sfx-card-icon">
         `;
         sfxTwo.play();
         isPlaying = false;
@@ -46,7 +46,7 @@ playSoundTwo.addEventListener("click", function() {
 playSoundThree.addEventListener("click", function() {
     if(isPlaying === true) {
         playSoundThree.innerHTML = `
-            <img class="sfx-card-button" src="./assets/icons/pause.png" alt="sfx-card-icon">
+            <img class="sfx-card-button-pause" src="./assets/icons/pause.png" alt="sfx-card-icon">
         `;
         sfxThree.play();
         isPlaying = false;

@@ -74,7 +74,7 @@ li {
     display: inline-block;
     text-transform: uppercase;
     text-decoration: none;
-    padding-block: 0.3em 0.2em;
+    padding-block: 0.3em;
     padding-inline: 0.7em;
     transition: background-color 0.25s, color 0.25s;
 }
@@ -358,7 +358,6 @@ li {
 .card-area-title {
     display: flex;
     flex-direction: column;
-    height: 40%;
     font-size: 0.9rem;
     text-transform: uppercase;
     letter-spacing: 1.3px;
@@ -385,14 +384,18 @@ li {
 .sfx-card-button{
     display: block;
     width: 100%;
+    margin-inline: 0.1em 0;
+}
+.sfx-card-button-pause {
+    display: block;
+    width: 100%;
+    margin-inline: 0;
 }
 
 .sfx-card-figure-btn:hover,
 .sfx-card-figure-btn:focus {
     filter: invert(100%);
 }
-
-
 
 .sfx-card-icons {
     display: flex;
@@ -412,6 +415,7 @@ li {
 }
 
 .sfx-main-img {
+    height: 150px;
     border-radius: 1em;
     overflow: hidden;
     margin-block: 0.6em;
@@ -450,6 +454,7 @@ li {
     display: flex;
     justify-content: space-around;
     padding-block: 0.6em 1em; 
+    margin-block-end: 1em; 
 }
 
 .card-button {
@@ -1002,7 +1007,7 @@ li {
 
 .cta-text {
     font-size: 1.2rem;
-    text-align: justify;
+    text-align: center;
     margin-block: 0.5em;
 }
 
